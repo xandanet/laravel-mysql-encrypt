@@ -1,0 +1,44 @@
+{
+    "name": "xandanet/laravel-mysql-encrypt",
+    "description": "Laravel 5.x | 6.x | 7.x Database encryption mysql side",
+    "keywords": [
+        "laravel",
+        "xandanet",
+        "mysql",
+        "encryption",
+        "php",
+        "pii"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Christopher Keller",
+            "email": "christopher@xanda.net"
+        }
+    ],
+    "require": {
+        "php": "^7.2.5",
+        "illuminate/support": "^5.0|^6.0|^7.0",
+        "illuminate/database": "^5.0|^6.0|^7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "XandaNet\\MysqlEncrypt\\": "src/"
+        },
+        "files": [
+            "src/helpers.php"
+        ]
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "XandaNet\\MysqlEncrypt\\Providers\\LaravelServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
