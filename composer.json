@@ -1,6 +1,6 @@
 {
     "name": "xandanet/laravel-mysql-encrypt",
-    "description": "Laravel 5.x | 6.x | 7.x Database encryption mysql side",
+    "description": "Laravel 5.x | 6.x | 7.x | 8.x Database encryption mysql side",
     "keywords": [
         "laravel",
         "xandanet",
@@ -18,8 +18,8 @@
     ],
     "require": {
         "php": "^7.2.5",
-        "illuminate/support": "^5.0|^6.0|^7.0",
-        "illuminate/database": "^5.0|^6.0|^7.0"
+        "illuminate/support": "^5.0|^6.0|^7.0|^8.0",
+        "illuminate/database": "^5.0|^6.0|^7.0|^8.0"
     },
     "autoload": {
         "psr-4": {
